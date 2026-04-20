@@ -3,7 +3,7 @@ title: "FriendliAI"
 summary: "FriendliAI setup (auth + model selection)"
 read_when:
   - You want to use FriendliAI with OpenClaw
-  - You need the FriendliAI token env var or default model id
+  - You need the FriendliAI API key env var or default model id
 ---
 
 # FriendliAI
@@ -26,7 +26,7 @@ read_when:
     openclaw onboard --auth-choice friendliai-api-key
     ```
 
-    This stores your FriendliAI token in OpenClaw config and sets Llama 3.3 70B as the default model.
+    This stores your FriendliAI API key in OpenClaw config and sets Llama 3.3 70B as the default model.
 
   </Step>
   <Step title="Verify the model is available">

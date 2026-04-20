@@ -57,12 +57,12 @@ export default defineSingleProviderPluginEntry({
     auth: [
       {
         methodId: "api-key",
-        label: "FriendliAI token",
-        hint: "API token",
+        label: "FriendliAI API key",
+        hint: "API key",
         optionKey: "friendliaiToken",
         flagName: "--friendliai-token",
         envVar: "FRIENDLIAI_TOKEN",
-        promptMessage: "Enter FriendliAI personal API token (flp_...)",
+        promptMessage: "Enter FriendliAI personal API key (flp_...)",
         defaultModel: FRIENDLIAI_DEFAULT_MODEL_REF,
         applyConfig: (cfg) => applyFriendliaiConfig(cfg),
       },

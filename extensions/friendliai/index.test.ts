@@ -46,7 +46,7 @@ describe("friendliai provider plugin", () => {
     expect(provider.id).toBe("friendliai");
     expect(provider.label).toBe("FriendliAI");
     expect(provider.aliases).toEqual(["friendli"]);
-    expect(provider.envVars).toEqual(["FRIENDLIAI_TOKEN"]);
+    expect(provider.envVars).toEqual(["FRIENDLIAI_API_KEY"]);
     expect(provider.auth).toHaveLength(1);
     expect(resolved?.provider.id).toBe("friendliai");
     expect(resolved?.method.id).toBe("api-key");

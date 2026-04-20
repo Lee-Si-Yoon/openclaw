@@ -20,7 +20,7 @@ const friendliaiPresetAppliers = createDefaultModelsPresetAppliers({
       baseUrl: defaultProvider.baseUrl,
       defaultModels: buildFriendliaiCatalogModels(),
       defaultModelId: FRIENDLIAI_DEFAULT_MODEL_ID,
-      aliases: [{ modelRef: FRIENDLIAI_DEFAULT_MODEL_REF, alias: "Llama 3.3 70B" }],
+      aliases: [{ modelRef: FRIENDLIAI_DEFAULT_MODEL_REF, alias: "GLM-5.1" }],
     };
   },
 });

@@ -5,8 +5,8 @@ import type {
 
 export const FRIENDLIAI_BASE_URL = "https://api.friendli.ai/serverless/v1";
 export const FRIENDLIAI_DEFAULT_MODEL_ID = "zai-org/GLM-5.1";
-export const FRIENDLIAI_DEFAULT_CONTEXT_WINDOW = 262144;
-export const FRIENDLIAI_DEFAULT_MAX_TOKENS = 262144;
+export const FRIENDLIAI_DEFAULT_CONTEXT_WINDOW = 202752;
+export const FRIENDLIAI_DEFAULT_MAX_TOKENS = 202752;
 
 export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
   return [
@@ -42,7 +42,7 @@ export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
       name: "MiniMax M2.5",
       reasoning: false,
       input: ["text"],
-      cost: { input: 0.3, output: 1.2, cacheRead: 0, cacheWrite: 0 },
+      cost: { input: 0.3, output: 1.2, cacheRead: 0.06, cacheWrite: 0 },
       contextWindow: 196608,
       maxTokens: 196608,
     },

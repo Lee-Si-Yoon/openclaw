@@ -77,7 +77,7 @@ OpenClaw accepts dynamic FriendliAI model ids. Use the exact model id shown on t
   agents: {
     defaults: {
       model: {
-        primary: "friendliai/meta-llama/Llama-3.3-70B-Instruct",
+        primary: "friendliai/zai-org/GLM-5.1",
       },
     },
   },
@@ -88,7 +88,7 @@ OpenClaw accepts dynamic FriendliAI model ids. Use the exact model id shown on t
   <Accordion title="How model id prefixing works">
     Every FriendliAI model ref in OpenClaw starts with `friendliai/` followed by the exact model id from the FriendliAI platform. For example:
 
-    - `friendliai/meta-llama/Llama-3.3-70B-Instruct`
+    - `friendliai/zai-org/GLM-5.1`
     - `friendliai/deepseek-ai/DeepSeek-V3.2`
     - `friendliai/Qwen/Qwen3-235B-A22B-Instruct-2507`
 

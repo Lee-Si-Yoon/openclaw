@@ -13,7 +13,7 @@ export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
     {
       id: "zai-org/GLM-5.1",
       name: "GLM-5.1",
-      reasoning: false,
+      reasoning: true,
       input: ["text"],
       cost: { input: 1.4, output: 4.4, cacheRead: 0.26, cacheWrite: 0 },
       contextWindow: 202752,
@@ -40,7 +40,7 @@ export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
     {
       id: "deepseek-ai/DeepSeek-V3.2",
       name: "DeepSeek V3.2",
-      reasoning: false,
+      reasoning: true,
       input: ["text"],
       cost: { input: 0.5, output: 1.5, cacheRead: 0.25, cacheWrite: 0 },
       contextWindow: 163840,
@@ -49,7 +49,7 @@ export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
     {
       id: "MiniMaxAI/MiniMax-M2.5",
       name: "MiniMax M2.5",
-      reasoning: false,
+      reasoning: true,
       input: ["text"],
       cost: { input: 0.3, output: 1.2, cacheRead: 0.06, cacheWrite: 0 },
       contextWindow: 196608,
@@ -67,7 +67,7 @@ export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
     {
       id: "zai-org/GLM-5",
       name: "GLM-5",
-      reasoning: false,
+      reasoning: true,
       input: ["text"],
       cost: { input: 1, output: 3.2, cacheRead: 0.5, cacheWrite: 0 },
       contextWindow: 202752,
@@ -76,7 +76,7 @@ export function buildFriendliaiCatalogModels(): ModelDefinitionConfig[] {
     {
       id: "LGAI-EXAONE/K-EXAONE-236B-A23B",
       name: "K-EXAONE 236B A23B",
-      reasoning: false,
+      reasoning: true,
       input: ["text"],
       cost: { input: 0.2, output: 0.8, cacheRead: 0.1, cacheWrite: 0 },
       contextWindow: 262144,
